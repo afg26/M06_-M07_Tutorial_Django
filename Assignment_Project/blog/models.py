@@ -1,8 +1,12 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+#imported the required libraries for the app 
 
 
+
+#the whole spicefication of our model to the database that is built in in django and we are using that one
+#we declare classes and fucntions that we want have thier own specific tasks for different part of the application.
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)

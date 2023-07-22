@@ -1,9 +1,10 @@
 from django.urls import path
 from . import views
+#imported the required libraries for the app 
 
 
 
-
+#all the above urls are the links inside the pages that we have in our webpage and it is just for navigating from one section of the page to another.
 urlpatterns = [
     path('', views.post_list, name='post_list'),
     path('post/<int:pk>/', views.post_detail, name='post_detail'),

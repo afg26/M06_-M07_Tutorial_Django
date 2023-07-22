@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    #blog is our main application and here we have let django know that we have made an application by the name of blog.
 ]
 
 MIDDLEWARE = [
@@ -124,3 +125,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/'
+#this link is the redirect to login page of the app 
