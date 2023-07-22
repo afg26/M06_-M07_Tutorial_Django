@@ -1,3 +1,6 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css")
+
 .page-header {
     background-color: #C25100;
     margin-top: 0;
@@ -67,4 +70,7 @@ h4 {
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+.comment {
+    margin: 20px 0px 20px 20px;
 }
